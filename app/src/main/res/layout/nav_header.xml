@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#0894A1"
+    android:padding="50dp"
+    android:layout_height="270dp">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/img_header"
+        android:src="@drawable/ic_radio_black_24dp"
+        android:layout_width="150dp"
+        android:layout_height="120dp" />
+
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:text="​ វិទ្យុខ្មែរ"
+        android:textColor="#FFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
